@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\RolePengurus;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class RolePengurusController extends Controller
 {
@@ -14,7 +15,9 @@ class RolePengurusController extends Controller
      */
     public function index()
     {
-        //
+        // $rolePengurus = DB::table('rolePengurus')->get();
+        $rolePengurus = RolePengurus::all();
+        return view('register', compact('role_pengurus'));
     }
 
     /**

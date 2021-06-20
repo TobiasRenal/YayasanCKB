@@ -7,5 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class RolePengurus extends Model
 {
-    use HasFactory;
+    /**
+     * The primary key associated with the table.
+     *
+     * @var string
+     */
+    protected $primaryKey = 'role_id';
 }
