@@ -47,3 +47,7 @@ Route::get('/karate', function () {
 Route::get('/personalia', function () {
     return view('personalia');
 });
+Route::get('/login', function () {
+    return view('login');
+});
+

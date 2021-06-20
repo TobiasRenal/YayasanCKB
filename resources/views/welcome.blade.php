@@ -78,7 +78,7 @@
                             </ul>
                         </div>
                         <li class="nav-item"><a class="nav-link" href="/contact">Kontak</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Administrator</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/login">Administrator</a></li>
                     </ul>
                 </div>
             </div>
